@@ -11,7 +11,7 @@ If you happen to download a buildable source code of a client or a minecraft mod
 **3. Run suspicious files offline** <br>
 If you happen to download a JAR file from an unknown source and you aren't sure if it's safe to use, you should either run it offline or not at all. Even though running files offline isn't the safest thing too since they can write/put files into places like startup, which could be dangerous once reconnecting to your WiFi. Do this only if you are lazy/don't want to do any of these other tips.
 
-**4. Use a VM (virtual machine) when running suspicious files** <br>
+**4. Use a VM (Virtual Machine) when running suspicious files** <br>
 This is one of the best things you can do to protect yourself from dangerous files and basically assures you that your local PC will NEVER get infected. If you don't know what a Virtual Machine is, it's basically a Virtual PC inside your Physical PC. These VMs usually have very good isolation and make sure that no infected file escapes and spreads into your local PC. If you are looking forward to using VMs (which you should), use VMs like [VirtualBox](https://www.virtualbox.org) or [VMware](https://www.vmware.com) (Here are some [VMware codes](https://gist.github.com/PurpleVibe32/30a802c3c8ec902e1487024cdea26251). If you are new to this, you should for sure use VirtualBox, but if you have a somewhat decent knowledge, use VMware. Here are also some setup guides + tips and tricks.
 
 How to set up VMware: https://www.youtube.com/watch?v=7kcqDy7aeGg <br>
@@ -19,16 +19,19 @@ How to set up Virtual Box: https://www.youtube.com/watch?v=sBzL_zoYt6o <br>
 How to speed up your VM: https://www.youtube.com/watch?v=fGMvH2zYr7Q&t <br>
 VM Undetected for VirtualBox: https://github.com/Scrut1ny/VM-Undetected <br>
 
-**5. Use a VPN (virtual private network)** <br>
-If you basically don't care that your local gets infected or logged but you care if you get IP logged, this is clearly for you! This is probably one of the worst options and decisions you can make, and you shouldn't do it at all. It's only good to use VPN for running stuff online in a VM to prevent IP log but also allows you to get better output from the file that you are running. Make sure to use NAT type connections which will be compatible with your VPN but also assures you that no malicious file spreads into your local machine. Here is a free Avast SecureLine VPN code: U2V9ZN-XUYYRJ-48UB7J
+**5. Pretend your PC is a VM (Virtual Machine)** <br>
+Sometimes, when malware detects registries, processes, or file paths related to a VM, it terminates itself to prevent any kind of dynamic analysis that could expose the malicious code. However, if we can spoof a legitimate PC as a VM, we could prevent any sort of malicious code from executing... ONLY if the malware has a VM check. If the malware has one, then you will be lucky to make it out safe without your PC getting infected. But if the malware does not have one, your PC will pay the price. Luckily, there is new software in its Alpha version right now that basically does what I just theorized. It can be found at [cyberscarecrow.com](https://www.cyberscarecrow.com/), and a showcase of it can be found on [Eric Parker's](https://www.youtube.com/watch?v=zTOKEKQ8ITA) channel.
 
-**6. Block commonly used websites with the webhook feature** <br>
+**6. Use a VPN (virtual private network)** <br>
+If you basically don't care that your local gets infected or logged but you care if you get IP logged, this is clearly for you! This is probably one of the worst options and decisions you can make, and you shouldn't do it at all. It's only good to use VPN for running stuff online in a VM to prevent IP log but also allows you to get better output from the file that you are running. Make sure to use NAT type connections which will be compatible with your VPN but also assures you that no malicious file spreads into your local machine.
+
+**7. Block commonly used websites with the webhook feature** <br>
 If you basically want to eliminate 99% of Loggers in this community, this is for you. Most of the people that make loggers use Discord's webhook feature which allows them to get the stuff that they want from your PC. If you decide to not use Discord, you can simply blacklist Discord's DNS which makes sure that the malicious people don't receive any files or anything about you even if you are online. The Discord webhook feature is just an example. There are many more websites with webhook features which you can blacklist.
 
-**7. Do NOT rely on RAT checking programs** <br>
+**8. Do NOT rely on RAT checking programs** <br>
 This is the most important thing to NOT do if you want to check if something contains malicious code. These rats checkers are 99% of the time really bad or simply will only tell you that code is obfuscated or that it throws exceptions. If u consider that as a rat check, then I don't know how your PC is gonna end up in the future. https://isthisarat.com is a great example of garbage which is basically sign based and can only detect the worst rats of all time. If u really want to use a RAT checker (Which is still not recommended), you can use [Theia Checker](https://github.com/Tigermouthbear/Theia) which is mainly good for its feature where it can tell you if the JAR has referenced any imports related to web connection.
 
-**8. Do your background research** <br>
+**9. Do your background research** <br>
 This is something that really doesn't stick out that much anymore but is one of the most important things when trying to understand if someone has malicious intent. Usually, if someone is going to be sending you a malicious program, they will be using social engineering which is a way to get people to do things they shouldn't like give up passwords or click on links that can harm their computer or run malicious programs. They can be trying to impersonate someone that you know and eventually sending you a malicious file with something along the lines of "Does this client work for you?" or they can be someone random that you basically never really heard of which would be trying to gain your trust and make you run a malicious file. If you think that the person is trying to pull tricks like these ones on you, check if they have any social media or ask others if they know the person, what are they mainly known for, if they have done any malicious stuff or have been involved in something like this before which could make you aware about the situation and give you a better understanding over someones intentions. You should also ask questions and be as concerned as possible if you are still suspecting something.
 
 ## Credits: <br>
